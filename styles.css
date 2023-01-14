@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
 body {
-  background: blueviolet;
+  position: relative;
+  width: 375px;
+  height: 812px;
+  background: #f7f7f9;
+  overflow-x: hidden;
 }
