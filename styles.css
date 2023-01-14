@@ -7,3 +7,71 @@ body {
   background: #f7f7f9;
   overflow-x: hidden;
 }
+
+/* Toolbar */
+
+.container {
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  left: 0;
+  top: 0;
+}
+
+.toolbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 114px;
+  height: 48px;
+  left: 12px;
+  top: calc(50% - 48px);
+}
+
+.welcome {
+  width: 90px;
+  height: 28px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #28352f;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menu-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 1px;
+  top: calc(50% - 40px);
+  border-radius: 8px;
+}
+
+.template-icon {
+  width: 24px;
+  height: 35px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
