@@ -13,26 +13,27 @@
 <body class="body">
 <!--Header-->
     <header>
-        <div class="header">
-            <!--Nav-->
-            <nav>
-                <div class="toolbar">
+        <div class="container">
+            <div class="toolbar">
+                <header>
                     <div class="logo">
                         <a href="#">
-                        <span class="my-logo">
-                            My Logo
-                        </span>
-                    </a>
+                            <span class="my-logo">
+                                My Logo
+                            </span>
+                        </a>
                     </div>
+                
+                <nav>
                     <div class="normal-button">
                         <button class="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
                             aria-controls="offcanvasRight"><img src="./img/Union.svg"></button>
                     </div>
-
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                         aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
-                            <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
                             <ul class="menu-items">
@@ -42,21 +43,23 @@
                             </ul>
                         </div>
                     </div>
-
-                </div>
-            </nav>
-            <!--End-Nav-->
+                </nav>
+            </header>
+            </div>
+            
+            
             <!--Headline-->
             <section>
-                <img src="img/header-shapes_mobile.svg" class="header-shapes">
                 <div class="headline">
                     <h1 class="primary-text-header">I’m Steven Levoyer to see you!</h1>
-                    <h2 class="primary-text-body">I’m a software developer! I can help you build a product , feature or website Look
-                        through some of my work and experience! If you like what you see and have a project you need coded, don’t
-                        hestiate to contact me.</h2>
+                    <p class="primary-text-body">I’m a software developer! I can help you build a product , feature or
+                        website Look
+                        through some of my work and experience! If you like what you see and have a project you need
+                        coded, don’t
+                        hestiate to contact me.</p>
                     <div class="social-media">
                         <div class="supporting-text">
-                            <sapn class="lets-connect">LET’S CONNECT</sapn>
+                            <a href="#" class="lets-connect">LET’S CONNECT</a>
                         </div>
                         <div class="social-media-icons">
                             <ul class="header-icons">
@@ -69,11 +72,35 @@
                         </div>
                     </div>
                 </div>
-            </section> 
-        <!--End-Headline-->
+            </section>
+            <!--End-Headline-->
         </div>
     </header>
 <!--End-Header-->
+<!--Main-->
+    <main>
+        <section aria-label="Section for works">
+            <div class="work">
+                <div class="card-works-1">
+                    <span>1</span>
+                </div>
+                <div class="card-works-2">
+                    <span>2</span>
+                </div>
+                <div class="card-works-3">
+                    <span>3</span>
+                </div>
+                <div class="card-works-4">
+                    <span>4</span>
+                </div>
+            </div>
+        </section>
+        <section class="about-myself" aria-label="Section about myself">
+
+        </section>
+    </main>
+<!--End-Main-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 

@@ -11,27 +11,19 @@
     margin-right: auto;
   }
 
-  .header {
-    position: absolute;
+  .container {
+    display: flex;
     width: 375px;
-    height: 672px;
+    height: 652px;
     left: 0;
     top: 0;
-    background: #fff;
-  }
-
-  .header-shapes {
-    position: absolute;
-    width: 462px;
-    height: 587.15px;
-    left: -44px;
-    top: 60px;
   }
 
   /* Toolbar */
 
   .toolbar {
-    position: absolute;
+    display: flex;
+    flex-direction: row;
     height: 48px;
     width: 375px;
     left: 0;
@@ -41,10 +33,8 @@
 
   .logo {
     display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 10px 12px;
-    position: absolute;
     width: 100px;
     height: 40px;
     left: 12px;
@@ -70,7 +60,6 @@
 
   .normal-button {
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 8px;
     position: absolute;
@@ -81,10 +70,7 @@
 
   .button {
     background-color: transparent;
-    background-repeat: no-repeat;
     border: none;
-    cursor: pointer;
-    overflow: hidden;
   }
 
   /* Menu */
@@ -102,6 +88,10 @@
 
   .offcanvas-body {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
     width: auto;
     height: 628px;
     background: #6070ff;
@@ -109,37 +99,17 @@
 
   .menu-items {
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    gap: 8px;
-    position: absolute;
-    width: 351px;
-    height: 184px;
-    left: 12px;
-    top: 1vh;
+    text-align: center;
   }
 
   .offcanvas-body a {
     text-decoration: none;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .offcanvas-body span {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 3vh;
-    height: 24px;
-    left: 0;
-    right: 68px;
-    top: calc(50% - 24px);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 32px;
     line-height: 44px;
     color: #fff;
@@ -155,9 +125,10 @@
     gap: 12px;
     position: absolute;
     width: 375px;
-    height: 604px;
+    height: 588px;
     left: calc(50% - 187.5px);
     top: 48px;
+    background-image: url(./img/header-shapes_mobile.svg);
   }
 
   .primary-text-header {
@@ -198,12 +169,15 @@
     height: 24px;
   }
 
+  .social-media a {
+    text-decoration: none;
+  }
+
   .supporting-text {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0;
-    gap: 8px;
     width: 117px;
     height: 24px;
   }
@@ -220,6 +194,9 @@
   }
 
   .social-media-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 170.2px;
     height: 20px;
   }
@@ -228,11 +205,129 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
   }
 
   .header-icons li {
     float: left;
     margin-right: 15px;
   }
+
+  /*Works*/
+
+  .work{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 114px 24px;
+gap: 88px;
+  }
+
+.card-works-1{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 12px;
+
+width: 327px;
+height: 552px;
+}
+
+.card-works-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  
+  width: 327px;
+  height: 596px;
+}
+
+.card-works-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  
+  width: 327px;
+  height: 552px;
+}
+
+.card-works-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  
+  width: 327px;
+  height: 596px;
+}
+
+}
+
+@media (min-width:820px) and (max-width:1920px){
+.body{
+  position: relative;
+  width: 1440px;
+  height: 5125px;
+  background: #fff;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container{
+display: flex;
+width: 1440px;
+height: 916px;
+left: 0px;
+top: 1px;
+
+/* Neutrals/N0 */
+background: #FFFFFF;
+}
+
+.toolbar{
+  display: flex;
+  width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+}
+
+.logo{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 12px;
+}
+
+.my-logo{
+  width: 76px;
+height: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+}
+
+.normal-button{
+  display: flex;
+flex-direction: row-reverse;
+align-items: center;
+padding: 0px;
+width: 259px;
+height: 40px;
+}
+
+
+
+
+
+
 }
