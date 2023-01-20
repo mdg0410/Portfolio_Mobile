@@ -38,7 +38,8 @@ We make use of Flexbox, we incorporate linters to the project, we use GitHub flo
     <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
     <li><a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48%3A988&t=eSvT9fWG9MegBs3Y-0">Figma</a>
     </li>
-    
+    <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Boostrap</a>
+    </li> 
   </ul>
 </details>
 
@@ -46,6 +47,7 @@ We make use of Flexbox, we incorporate linters to the project, we use GitHub flo
 
 ### Preview <a name="preview"></a>
 
+<img src="./img/Headline.png" alt="Employee data" title="Employee Data title">
 
 
 <!-- GETTING STARTED -->
@@ -97,6 +99,18 @@ To run the project:
 - GitHub: [@mdg0410](https://github.com/mdg0410/)
 - Twitter: [@StevenLevoyer](https://twitter.com/StevenLevoyer)
 - LinkedIn: [Richard Steven Levoyer Chavez](https://www.linkedin.com/in/richard-steven-levoyer-chavez-9b902525b/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Features to be added to the project.
+
+- [ ] **Add Recent Works section to index.**
+- [ ] **Add About me section to the index**
+- [ ] **Add Form section to index**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
